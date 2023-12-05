@@ -3,7 +3,7 @@ timestamp: 2023-12-01T18:14:46.877Z
 source: VSCODE
 username: mbrodi
 accelerator:
-  name: tanzu-java-web-app
+  name: hello-java
 fragments:
   - name: build-wrapper-gradle
   - name: build-wrapper-maven

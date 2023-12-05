@@ -105,7 +105,7 @@
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/java/com/example/springboot/HelloController.java didn't match [Tiltfile*] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ Debug src/test/java/com/example/springboot/HelloControllerTest.java didn't match [Tiltfile*] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.in.transformations[0].delegate.transformations[0].sources[1].delegate.transformations[1] (ReplaceText)
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [tanzu-java-web-app->hello-java]
+┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [hello-java->hello-java]
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.in.transformations[0].delegate.transformations[0].sources[1].delegate.transformations[2] (RewritePath)
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗  Info Condition (#buildTool == 'gradle' && #ide == 'intellij') evaluated to false
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.in.transformations[0].delegate.transformations[0].sources[1].delegate.transformations[3] (RewritePath)
@@ -143,7 +143,7 @@
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/java/com/example/springboot/HelloController.java didn't match [config/workload.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ Debug src/test/java/com/example/springboot/HelloControllerTest.java didn't match [config/workload.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.in.transformations[0].delegate.transformations[0].sources[2].delegate.transformations[1] (ReplaceText)
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [: tanzu-java-web-app->: hello-java]
+┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [: hello-java->: hello-java]
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.in.transformations[0].delegate.transformations[0].sources[2].delegate.transformations[2] (Combo)
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃  Info Combo running as Chain
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ engine.transformations[0].validated.delegate.in.transformations[0].delegate.transformations[0].sources[2].delegate.transformations[2].delegate (Chain)
@@ -197,7 +197,7 @@
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/java/com/example/springboot/HelloController.java didn't match [catalog/*.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ Debug src/test/java/com/example/springboot/HelloControllerTest.java didn't match [catalog/*.yaml] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].validated.delegate.in.transformations[0].delegate.transformations[0].sources[4].delegate.transformations[1] (ReplaceText)
-┃ ┃ ┃ ┃ ┃ ┃ ┗ ┗  Info Will replace [tanzu-java-web-app->hello-java]
+┃ ┃ ┃ ┃ ┃ ┃ ┗ ┗  Info Will replace [hello-java->hello-java]
 ┃ ┃ ┃ ┃ ┃ ┃ ┏ README (Combo)
 ┃ ┃ ┃ ┃ ┃ ┃ ┃  Info Combo running as Chain
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ README.delegate (Chain)
@@ -230,7 +230,7 @@
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ Debug src/main/java/com/example/springboot/HelloController.java didn't match [README.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ Debug src/test/java/com/example/springboot/HelloControllerTest.java didn't match [README.md] -> excluded
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┏ README.delegate.transformations[0].sources[0].delegate.transformations[1] (ReplaceText)
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ ┗  Info Will replace [tanzu-java-web-app->hello-java]
+┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ ┗  Info Will replace [hello-java->hello-java]
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┏ README.delegate.transformations[0].sources[1] (Combo)
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┃  Info Condition (#nativeBuild) evaluated to false
 ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ ┗ null ()

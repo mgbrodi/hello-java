@@ -7,7 +7,7 @@ You can also use the Tanzu CLI to build and deploy this sample as a GraalVM nati
 With the Tanzu CLI, you can use the following command:
 
 ```sh
-tanzu apps workload create tanzu-java-web-app \
+tanzu apps workload create hello-java \
   --file ./config/workload-native.yaml \
   --local-path .
 ```

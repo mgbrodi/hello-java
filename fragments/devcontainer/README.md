@@ -50,7 +50,7 @@ engine:
       reference: build-tool
 ```
 
-For a concrete example on how to use it, check the `tanzu-java-web-app` sample
+For a concrete example on how to use it, check the `hello-java` sample
 accelerator.
 
 ## Creating the fragment resource
